@@ -23,7 +23,7 @@ body {
 
 .hero {
   background-attachment: fixed;
-  background-image: url(../img/capa-madmax.jpg);
+  background-image: url(../img/capa-madmax2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -43,6 +43,7 @@ body {
   position: absolute;
   top: 0;
   width: 100%;
+  pointer-events: none
 }
 
 .hero-menu {
@@ -379,26 +380,3 @@ body {
 .icon-instagram a:hover {
 	color: #e95950;
 }
-/* 
-h2 {
-  display: block;
-  font-size: 1.5em;
-  margin-block-start: 0.83em;
-  margin-block-end: 0.83em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-weight: bold;
-} 
-
-p {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-}
-
-
-
-
- */
